@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC47E24F-EC21-46BF-8705-77C58FD6F5CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DeviceCodes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EDD006581057C8722CF2FCE88472595B62100251</key>
+		<string>https://github.com/pandazheng/IOSCodes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DeviceCodes.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EDD006581057C8722CF2FCE88472595B62100251</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pandazheng/IOSCodes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EDD006581057C8722CF2FCE88472595B62100251</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EDD006581057C8722CF2FCE88472595B62100251</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOSCodes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
