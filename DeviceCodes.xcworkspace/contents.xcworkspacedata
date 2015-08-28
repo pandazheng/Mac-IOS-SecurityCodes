@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TestEncrypt/TestEncrypt.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:IosDirectory/IosDirectory.xcodeproj">
    </FileRef>
    <FileRef
