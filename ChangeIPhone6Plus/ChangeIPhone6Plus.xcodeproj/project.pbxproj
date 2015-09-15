@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A476529A1BA808F50032576C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47652991BA808F50032576C /* Foundation.framework */; };
+		A47652A51BA808F50032576C /* ChangeIPhone6Plus.mm in Sources */ = {isa = PBXBuildFile; fileRef = A47652A41BA808F50032576C /* ChangeIPhone6Plus.mm */; };
+		A47652B01BA809800032576C /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A47652AF1BA809800032576C /* libsubstrate.dylib */; };
+		A47652B21BA809C60032576C /* substrate.h in Headers */ = {isa = PBXBuildFile; fileRef = A47652B11BA809C60032576C /* substrate.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A47652961BA808F50032576C /* ChangeIPhone6Plus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ChangeIPhone6Plus.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47652991BA808F50032576C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A476529E1BA808F50032576C /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		A476529F1BA808F50032576C /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		A47652A11BA808F50032576C /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		A47652A21BA808F50032576C /* ChangeIPhone6Plus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChangeIPhone6Plus-Prefix.pch"; sourceTree = "<group>"; };
+		A47652A31BA808F50032576C /* ChangeIPhone6Plus.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ChangeIPhone6Plus.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A47652A41BA808F50032576C /* ChangeIPhone6Plus.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ChangeIPhone6Plus.mm; sourceTree = "<group>"; };
+		A47652A91BA808F50032576C /* ChangeIPhone6Plus.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ChangeIPhone6Plus.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/ChangeIPhone6Plus.plist; sourceTree = "<group>"; };
+		A47652AF1BA809800032576C /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsubstrate.dylib; sourceTree = "<group>"; };
+		A47652B11BA809C60032576C /* substrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = substrate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47652921BA808F50032576C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47652B01BA809800032576C /* libsubstrate.dylib in Frameworks */,
+				A476529A1BA808F50032576C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A476528B1BA808F50032576C = {
+			isa = PBXGroup;
+			children = (
+				A476529B1BA808F50032576C /* ChangeIPhone6Plus */,
+				A47652981BA808F50032576C /* Frameworks */,
+				A47652971BA808F50032576C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47652971BA808F50032576C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47652961BA808F50032576C /* ChangeIPhone6Plus.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47652981BA808F50032576C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A47652991BA808F50032576C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A476529B1BA808F50032576C /* ChangeIPhone6Plus */ = {
+			isa = PBXGroup;
+			children = (
+				A47652A31BA808F50032576C /* ChangeIPhone6Plus.xm */,
+				A47652A41BA808F50032576C /* ChangeIPhone6Plus.mm */,
+				A47652B11BA809C60032576C /* substrate.h */,
+				A476529C1BA808F50032576C /* Package */,
+				A47652A01BA808F50032576C /* Supporting Files */,
+			);
+			path = ChangeIPhone6Plus;
+			sourceTree = "<group>";
+		};
+		A476529C1BA808F50032576C /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				A476529D1BA808F50032576C /* DEBIAN */,
+				A47652A61BA808F50032576C /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		A476529D1BA808F50032576C /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				A476529E1BA808F50032576C /* control.txt */,
+				A476529F1BA808F50032576C /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		A47652A01BA808F50032576C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47652A11BA808F50032576C /* PackageVersion.plist */,
+				A47652A21BA808F50032576C /* ChangeIPhone6Plus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47652A61BA808F50032576C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A47652A71BA808F50032576C /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A47652A71BA808F50032576C /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				A47652A81BA808F50032576C /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		A47652A81BA808F50032576C /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A47652AF1BA809800032576C /* libsubstrate.dylib */,
+				A47652A91BA808F50032576C /* ChangeIPhone6Plus.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A47652931BA808F50032576C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47652B21BA809C60032576C /* substrate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A47652951BA808F50032576C /* ChangeIPhone6Plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47652AC1BA808F50032576C /* Build configuration list for PBXNativeTarget "ChangeIPhone6Plus" */;
+			buildPhases = (
+				A47652901BA808F50032576C /* ShellScript */,
+				A47652911BA808F50032576C /* Sources */,
+				A47652921BA808F50032576C /* Frameworks */,
+				A47652931BA808F50032576C /* Headers */,
+				A47652941BA808F50032576C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeIPhone6Plus;
+			productName = ChangeIPhone6Plus;
+			productReference = A47652961BA808F50032576C /* ChangeIPhone6Plus.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A476528C1BA808F50032576C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					A47652951BA808F50032576C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = A476528F1BA808F50032576C /* Build configuration list for PBXProject "ChangeIPhone6Plus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A476528B1BA808F50032576C;
+			productRefGroup = A47652971BA808F50032576C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47652951BA808F50032576C /* ChangeIPhone6Plus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A47652901BA808F50032576C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		A47652941BA808F50032576C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47652911BA808F50032576C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47652A51BA808F50032576C /* ChangeIPhone6Plus.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A47652AA1BA808F50032576C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		A47652AB1BA808F50032576C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		A47652AD1BA808F50032576C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeIPhone6Plus/ChangeIPhone6Plus-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChangeIPhone6Plus",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		A47652AE1BA808F50032576C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeIPhone6Plus/ChangeIPhone6Plus-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChangeIPhone6Plus",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A476528F1BA808F50032576C /* Build configuration list for PBXProject "ChangeIPhone6Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47652AA1BA808F50032576C /* Debug */,
+				A47652AB1BA808F50032576C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47652AC1BA808F50032576C /* Build configuration list for PBXNativeTarget "ChangeIPhone6Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47652AD1BA808F50032576C /* Debug */,
+				A47652AE1BA808F50032576C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A476528C1BA808F50032576C /* Project object */;
+}
